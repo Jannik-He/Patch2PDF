@@ -14,7 +14,7 @@ For now, it only supports XML files since they contain more data than the export
 
 ### MA3
 
-Due to changes in the exported XML file structure, MA3 is only supported in combination with the also available Exporter Plugin (link coming).<br>
+Due to changes in the exported XML file structure, MA3 is only supported in combination with the also available [Exporter Plugin](https://github.com/Jannik-He/MA3-Patch2PDF-Exporter/).<br>
 The tables are being separated by Group fixtures.
 
 
