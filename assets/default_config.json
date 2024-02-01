@@ -1,0 +1,59 @@
+{
+    "logos": [
+        {
+            "displayName": "MA Lighting",
+            "filePath": "logos/ma_logo.png"
+        }
+    ],
+    "tableHeaders": [
+        {
+            "name": "Fix ID",
+            "enabled": true,
+            "width": "25",
+            "parserVar": "FixtureID",
+            "valAlignment" : "right"
+        },
+        {
+            "name": "Ch ID",
+            "enabled": true,
+            "width": "25",
+            "parserVar": "ChannelID",
+            "valAlignment" : "right"
+        },
+        {
+            "name": "Patch",
+            "enabled": true,
+            "width": "30",
+            "parserVar": "Patch",
+            "valAlignment" : "right"
+        },
+        {
+            "name": "DipPatch",
+            "enabled": false,
+            "width": "auto",
+            "parserVar": "DipPatch",
+            "valAlignment" : "left"
+        },
+        {
+            "name": "Fixture Name",
+            "enabled": true,
+            "width": "auto",
+            "parserVar": "Name",
+            "valAlignment" : "left"
+        },
+        {
+            "name": "Fixture Type",
+            "enabled": true,
+            "width": "100",
+            "parserVar": "FixtureType",
+            "valAlignment" : "left"
+        },
+        {
+            "name": "Position (X|Y|Z)",
+            "enabled": true,
+            "width": "70",
+            "specialType": "Position",
+            "valAlignment" : "left"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <svg height="1024" width="1024" xmlns="http://www.w3.org/2000/svg">
+    <!-- <path d="M 0 0 L 0 750 L 600 750 L 600 260 L 340 260 L 340 40 L 560 260 L 600 260 L 600 250 L 350 0" fill="white"/> -->
+        <mask id="file_cutout">
+            <rect width="1000" height="1000" fill="white"/>
+            <path d="M 340 40 L 340 260 L 560 260"/>
+            <text x="70" y="520" font-size="300" font-family="Arial Rounded MT Bold" font-weight="">
+                MA
+            </text>
+        </mask>
+        <rect width="100%" height="100%" fill="#212121" />
+        <path transform="translate(212, 112)" d="M 0 20 L 0 730 A20,20 0,0,0 20,750 L 580 750 A20,20 0,0,0 600,730 L 600 290 A60,60 0,0,0 580,240  L 360 15 A60,60 0,0,0 325,00 L 20 0 A20,20 0,0,0 0,20" fill="white" mask="url(#file_cutout)"/>
+    </svg>
